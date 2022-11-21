@@ -1,0 +1,381 @@
+@font-face {
+    font-family: Bold;
+    src: url(./Fonts/Nike-TG.ttf);
+}
+@font-face {
+    font-family: Bolder;
+    src: url(./Fonts/Nike-Futura.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(./Fonts/nike-glyphs.ttf);
+
+}
+body{
+    margin: 0px;
+}
+.head1{
+    background-color:#F5F5F5;
+    width: 100%;
+    height: 35px;
+}
+.left1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.jordan{ 
+    height: 22px;
+    margin-left:50px; 
+    margin-top: 7px; 
+    
+}
+.right1{
+    width: 50%;
+    height: 100%;
+    float: left; 
+}
+.headtext{
+    text-decoration: none;
+    color: #151515;
+    font-family: sans-serif;
+    font-size:12px;
+}
+.headtext:hover{
+    color:#757575;
+}
+.head2{
+    background-color: white;
+    position:sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+}
+.left2{
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+.mid2{
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+
+
+.right2{
+    float: left;
+    height: 100%;
+    width: 30%;
+    
+}
+.head2text{
+    text-decoration: none;
+    color: #151515;
+    font-family: sans-serif;
+    font-size:16.5px;
+}
+.head2text:hover{
+    padding-bottom: 18px;
+    border-bottom: solid;
+}
+
+
+.search{
+    float: left;
+    background-color:#F5F5F5 ;
+    border: 0cm;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+.search:hover{
+    background-color: #E5E5E5;
+}
+input::placeholder {
+    text-align: center;
+    font-size: medium;
+    color: #b3b2b2;
+}
+
+.favicon{
+border-radius:25px;
+ width:40px;
+ height:40px;
+ float: left;margin-left: 17px;
+margin-top: 10px
+}
+.favicon:hover{
+    background-color:#E5E5E5 ;
+}
+.bagicon{
+border-radius:25px;
+width:40px;
+height:40px;
+float: left;margin-left: 17px;
+margin-top: 10px
+}
+.bagicon:hover{
+    background-color:#E5E5E5 ;
+}
+
+.head3{
+    height: 60px;
+    width: 100%;
+    background-color:#F5F5F5 ;
+}
+.shopbtn{
+    color: white;
+    background-color:black;
+    width: 80px;height: 30px;
+    border-radius: 20px;padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.shopbtn:hover{
+    background-color: #757575;
+    text-decoration: none;
+}
+video{
+    border-width: 0em;
+   width: 98%;
+   height: 600px;
+    
+}
+.downloadbtn{
+    margin-left: 450px;
+    float: left;
+    color: white;
+    background-color:black;
+    width: 225px;height: 30px;
+    border-radius: 20px;padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.downloadbtn:hover{
+    background-color: #757575;
+}
+.shopbtn2{
+    margin-left: 10px;
+    float: left;
+    color: white;
+    background-color:black;
+    width: 80px;height: 30px;
+    border-radius: 20px;padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.shopbtn2:hover{
+    background-color: #757575;
+}
+.shoe{
+    margin-left: 2.5%;
+    float:left;
+    height: 390px;
+    width: 30%;
+}
+.essential{
+    object-fit: cover;
+    margin-left: 15px;
+    float: left;
+    width: 45%;
+    height: 680px;
+}
+.imgtxt{
+    margin-top: 540px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    position: absolute;
+    color: #E5E5E5;
+    font-size: 20px;
+}
+.imgtxt2{
+    margin-top: 540px;
+    margin-left: 680px;
+    font-family: sans-serif;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+}
+.imgbtn{
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 60px;
+    height: 40px;
+    width: 80px;
+    color: black;
+    background-color: white;
+}
+.imgbtn2{
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 680px;
+    height: 40px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.imgbtn:hover{
+    background-color: #B2B2B2;
+}
+.imgbtn2:hover{
+    background-color:#757575;
+}
+
+.gearup{
+    width: 93%;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.shopbtn3{
+    color: white;
+    background-color:black;
+    width: 80px;height: 30px;
+    border-radius: 20px;padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shopbtn3:hover{
+    background-color: #757575;
+}
+.img04{
+    margin-left: 50px;
+    width: 92%;
+    height: 600px;
+}
+.justdoit{
+    margin-left: 10px;
+    float: left;
+    width: 31%;
+    height: 370px;
+    margin-bottom: 100px;
+}
+.button{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+    border: 0ch;
+    margin-left: 60px;
+    margin-top: 300px;
+    color: black;
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: #B2B2B2;
+}
+.button2{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+    border: 0ch;
+    margin-left: 60px;
+    margin-top: 300px;
+    color: black;
+    background-color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button2:hover{
+    background-color: #B2B2B2;
+}
+.button3{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+    border: 0ch;
+    margin-left: 60px;
+    margin-top: 300px;
+    color: black;
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button3:hover{
+    background-color: #B2B2B2;
+}
+.menu .items:hover{
+    color: #000000;
+    cursor:pointer ;
+}
+.items{
+    color: #757575;
+    font-family: sans-serif;
+}
+.foot{
+    margin-top: 850px;
+    background-color: #111111;
+    width: 100%;
+    height: 335px;
+}
+.foot-1{
+    margin-top: 30px;
+    margin-left:30px ;
+    float: left;
+    font-family: Bold;
+    color: white;
+    font-size: 15px;
+}
+.foot-2{
+    margin-top: 30px;
+    margin-left: 120px;
+    float: left;
+    font-family:sans-serif;
+    color:#7a7a7a;
+    font-size: 13px;
+}
+.foot-2 p:hover{
+    color: white;
+}
+.foot-3{
+    margin-top: 30px;
+    margin-left: 45px;
+    float: left;
+    font-family: sans-serif;
+    color: #7a7a7a;
+    font-size: 13px;
+}
+.foot-3 p:hover{
+    color: white;
+}
+.foot-4{
+    float: right;
+    width: 430px;
+    height: 100%;
+    background-color: #111111;
+}
+.social{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.social-icons{
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bottom-foot p{
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 13px;
+    float: left;
+    color: #7a7a7a;
+    font-family:sans-serif;
+}
+.bottom-foot p:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
